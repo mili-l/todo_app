@@ -14,8 +14,8 @@ jobs:
 #        with:
 #          node-version: '18.x'
       - uses: actions/checkout@v4
-      - run: cd src/webapp/api
+      - run: cd ./src/webapp/api
       - run: ls -la
-        working-directory: ./src/webapp/api
+        #working-directory: ./src/webapp/api
       - run: npm install
       - run: npm run test
