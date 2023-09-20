@@ -1,9 +1,8 @@
 name: learn-github-actions
-#run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: test
-      #- run: echo "Hello test-bash"
+      - run: echo "Hello test-bash"
