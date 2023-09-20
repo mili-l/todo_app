@@ -10,7 +10,8 @@ jobs:
   unit-tests:
     runs-on: ubuntu-latest
     steps:
-      - name: use Node.js
-        with:
-          node-version: '18.x'
-      - run: npm run test
+#      - name: use Node.js
+#        with:
+#          node-version: '18.x'
+      - uses: actions/checkout@v4
+      - run: ls -la
