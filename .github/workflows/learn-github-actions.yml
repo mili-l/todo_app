@@ -5,4 +5,5 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
+      - name: test
       - run: echo "Hello test-bash"
