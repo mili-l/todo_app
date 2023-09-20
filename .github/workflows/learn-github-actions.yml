@@ -16,5 +16,6 @@ jobs:
       - uses: actions/checkout@v4
       - run: cd src/webapp/api
       - run: ls -la
+        working-directory: ./src/webapp/api
       - run: npm install
       - run: npm run test
