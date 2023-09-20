@@ -1,0 +1,8 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  test-bash:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test-bash
+      - run: echo "Hello test-bash"
